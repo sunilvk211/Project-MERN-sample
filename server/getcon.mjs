@@ -11,6 +11,6 @@ try {
   console.error(err);
 }
 
-let db = conn.db("college");
+let db = conn.db("mern");
 
 export default db;
