@@ -8,14 +8,12 @@ export default function Create() {
    level: "",
  });
  const navigate = useNavigate();
- 
  // These methods will update the state properties.
  function updateForm(value) {
    return setForm((prev) => {
      return { ...prev, ...value };
    });
  }
- 
  // This function will handle the submission.
  async function onSubmit(e) {
    e.preventDefault();
